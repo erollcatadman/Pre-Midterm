@@ -1,0 +1,14 @@
+body {
+        background: #C2CAE8;
+    }
+    .micx {
+        text-align: center;
+        background: #111D4A;
+        padding: 5px;
+        border-radius: -1pc;
+        margin-top: -1pc;
+    }
+    .catalog {
+        position: relative;
+        left: 1rem;
+    }
