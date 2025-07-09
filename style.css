@@ -5,53 +5,97 @@ body {
   padding: 0;
   color: #1a1a1a;
 }
+
 header {
   background-color: #0f1a4d;
   color: white;
-  padding: 1rem 2rem;
-  word-spacing: 5em;
+  padding: 1rem;
+  width: 1660px;
+  position: relative;
+  right: 1.5rem;
+  bottom: 2rem;
+  word-spacing: 6em;
 }
+
 .menu{
   display: block;
   justify-content: space-between;
   align-items: center;
 }
+
 .acade {
   font-weight: bold;
   font-size: 1.5rem;
   position: relative;
   top: 1rem;
+  left: 9rem;
 }
 .micx {
   background-color: orange;
   color: rgb(238, 44, 180);
   border-radius: 3px;
 }
+
 .menu-bar{
   margin: 0 1rem;
   color: white;
   position: relative;
   left: 40rem;
 }
+
 .login-btn {
-  word-spacing: normal;
+  font-family: "Inter", sans-serif;
   color: white;
-  position: relative;
-  left: 90rem;
-  bottom: 1rem;
+  display: inline;
+  margin-left: 290px;
+  
 }
+
+  .login-btn >ul {
+ list-style: none;
+ display: inline;
+ margin-block: 0px;
+ padding: 0;
+ 
+  }
+
+  .login-btn >ul >li{
+  display: inline;
+  font-weight: 600;
+  position: relative;
+  text-align: justify;
+  left: 58rem;
+  word-spacing: normal;
+  font-size: 15px;
+  margin-right: 20px;
+  height: 50rem;
+  bottom: 1.4rem;
+  }
+
+  .login-btn >ul >li >img{
+  display: inline;
+  position: relative;
+  left: 5rem;
+  top: 10px;
+  width: 16px;
+
+}
+
 .signup-container {
   display: flex;
   padding: 2rem;
   max-width: 1100px;;
   position: relative;
   top: 9rem;
+
 }
+
 .banner{
     position: relative;
     right: 15rem;
     top: 4.5rem;
 }
+
 .signup-form{
     position: relative;
     width: 150px;
@@ -59,8 +103,8 @@ header {
     right: 40rem;
     bottom: 1rem;
     left: 0%;
-
 }
+
 .left .showcase-img {
   position: relative;
   left: 9rem;
@@ -68,13 +112,25 @@ header {
   border-radius: 10px;
   border: 1px solid black;
 }
+
 h2{
   position: relative;
-  display: block;
-  bottom: 20rem;
+  bottom: 22rem;
   right: 20rem;
   left: 0rem;
+  width: 397px;
+  text-align: justify;
   color: #111D4A;
+}
+h5{
+  position: relative;
+  color: black;
+  left: 50px;
+  font-size: 16px;
+  style: regular;
+  font: "inter";
+  font-weight: 400;
+  top: 15rem;
 }
 .signing{
     position: relative;
@@ -82,28 +138,17 @@ h2{
     right: 10rem;
     font-size: 16px;
 }
-input {
-  padding: 0.6rem;
-  border: 1px solid #ccc;
-  border-radius: 4px;
-  width: 100%;
+
+p{
+  font-weight: bold;
 }
-button {
-  background-color: #0f1a4d;
-  color: white;
-  padding: 0.8rem;
-  border: none;
-  border-radius: 4px;
-  cursor: pointer;
-}
-li{
-    font-weight: bold;
-}
+
 .courses {
   width: 1100px;
   margin: auto;
   padding: 2rem;
   position: relative;
+  color: black;
   top: 15rem;
   right: 6rem;
 }
@@ -114,42 +159,24 @@ hr{
     background-color: black;
     height: 2px;
 }
+
 .courses h3 {
   font-size: 36px;
   margin-bottom: 1rem;
+  color: #111D4A;
 }
+
+.search{
+  position: relative;
+  bottom: 26rem;
+  left: 38rem;
+}
+
 .course-list {
   padding: 0;
   margin-bottom: 2rem;
-}
-.course-list li {
-  margin-bottom: 0.8rem;
-}
-.cardboard {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  gap: 1rem;
-}
-.course-card {
-  background-color: white;
-  border: 1px solid #ccc;
-  height: 5rem;
-  width: 8rem;
-  padding: 1rem;
-  border-radius: 6px;
-  position: relative;
-  left: 30rem;
-  bottom: 15rem;
-}
-.course-card .tag {
-  background-color: #e60073;
-  color: white;
-  font-size: 0.75rem;
-  padding: 0.2rem 0.5rem;
-  border-radius: 3px;
-  position: absolute;
-  top: 0.5rem;
-  left: 0.5rem;
+  margin-bottom: 1rem;
+
 }
 .card{
   background-color: #e60073;
@@ -158,15 +185,27 @@ hr{
   padding: 0.2rem 0.5rem;
   border-radius: 3px;
   position: absolute;
-  top: 11rem;
+  top: 9rem;
   left: 45rem;
 }
+.java{
+background-color: #e60073;
+  color: white;
+  font-size: 0.75rem;
+  padding: 0.2rem 0.5rem;
+  border-radius: 3px;
+  position: absolute;
+  bottom: 10rem;
+  left: 45rem;
 
-body {
+}
+
+    body {
       background-color: #cbd2f7;
       font-family: Arial, sans-serif;
       margin: 20px;
     }
+
     .grid {
       display: grid;
       grid-template-columns: repeat(2, 1fr);
@@ -174,9 +213,10 @@ body {
       max-width: 700px;
       margin: auto;
       position: relative;
-      bottom: 35rem;
-      left: 15rem;
+      bottom: 30rem;
+      left: 16rem;
     }
+
     .card {
       background: white;
       border: 2px solid #ccc;
@@ -187,6 +227,7 @@ body {
       bottom: 30px;
       left: 50px;
     }
+
     .tag {
       background-color: #e60073;
       color: white;
@@ -198,17 +239,20 @@ body {
       top: 10px;
       left: 10px;
     }
+
     .title {
       font-size: 22px;
       font-weight: bold;
       margin-top: 30px;
       color: #111;
     }
+
     .info {
       font-size: 14px;
       margin: 10px 0;
       color: #333;
     }
+
     .basics {
       display: inline-block;
       background-color: #dde2f4;
@@ -216,147 +260,379 @@ body {
       font-weight: bold;
       padding: 4px 10px;
       border-radius: 8px;
+      left: 15rem;
       font-size: 13px;
       text-decoration: none;
+      position: relative;
     }
+
     .more {
       text-align: right;
       margin-top: 10px;
       font-size: 13px;
-      color: #333;  
+      color: #333;
+      position: relative;
+      bottom: 19rem;
+      left: 6rem;
+  
     }
-    * {
-margin: 0;
-padding: 0;
-box-sizing: border-box;
-font-family: 'Inter', sans-serif;
+
+  .info-section {
+  position: relative;
+  bottom: 3rem;
+  background-color: #ffc700;
+  padding: 60px 60px;
+  right: 1.7rem;
+  width: 1570px;
+  font-family: 'Segoe UI', sans-serif;
 }
-body {
-background-color: #e0e0e0;
-color: #1a1a1a;
-line-height: 1.6;
-}
-.more {
-text-align: right;
-font-size: 14px;
-color: #333;
-padding: 10px 20px;
-}
-.info-section {
-background-color: #ffc62d;
-padding: 60px 20px;
-}
+
 .info-container {
-max-width: 1100px;
-margin: auto;
-display: flex;
-flex-wrap: wrap;
-justify-content: space-between;
-align-items: center;
-gap: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 1200px;
+  margin: 0 auto;
+  flex-wrap: wrap;
 }
+
 .info-text {
-flex: 1;
-min-width: 280px;
+  flex: 1 1 50%;
+  max-width: 600px;
 }
+
 .info-text h2 {
-font-size: 24px;
-font-weight: 700;
-margin-bottom: 15px;
+  position: relative;
+  bottom: 1rem;
+  font-size: 2em;
+  font-weight: 700;
 }
+
 .info-text p {
-font-size: 16px;
-color: #1a1a1a;
-margin-bottom: 20px;
+  font-weight: 400;
+  font-size: 16px;
+  text-align: justify;
+  color: #111D4A;
 }
+
 .tour-button {
-padding: 10px 20px;
-background-color: #000;
-color: #fff;
-border: none;
-border-radius: 5px;
-font-weight: 500;
-cursor: pointer;
+  padding: 10px 18px;
+  background-color: #000;
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  font-weight: 600;
 }
-.info-image { 
+
+.tour-button{
+  position: relative;
+  top: 1rem;
+  background-color: #111D4A;
+}
+
+.info-image {
   position: relative;
   right: 5rem;
   display: block;
   top: 1rem;
+  
 }
-.info-image img{
+
+.info-image img {
   width: 346px;
   height: 296px;
 }
-.join-section {
-background-color: #3a84f5;
-padding: 60px 20px;
-text-align: center;
+.join-section{
+  background-color: #3A86FF;
+  width: 1685px;
+  position: relative;
+  right: 1.5rem;
+  
+}
+.Join {
+  position: relative;
+  top: 5rem;
+  left: 43rem;
+  text-align: center;
+  color: white;
+}
+
+.learners{
+  position: relative;
+  top: 9.3rem;
+  left: 10em;
+  color: white;
+  font-size: 35px;
+}
+.cities{
+  position: relative;
+  top: 5rem;
+  left: 23em;
+  color: white;
+  font-size: 35px;
+}
+.materials{
+  position: relative;
+  top: 1rem;
+  left: 34em;
+  color: white;
+  font-size: 35px;
+}
+.Learners{
+  position: relative;
+  left: 17.8em;
+  bottom: 1em;
+  color: white;
+  font-weight: lighter;
+}
+
+.Cities{
+  position: relative;
+  left: 42.7em;
+  bottom: 3.2em;
+  color: white;
+  font-weight: lighter;
+}
+
+.Materials{
+  position: relative;
+  left: 60em;
+  bottom: 5em;
+  color: white;
+  font-weight: lighter;
+}
+
+.access-section{
+  background: #8338EC;
+  position: relative;
+  width: 1587.5px;
+  right: 1.5rem;
+  bottom: 3rem;
+  padding: 100px 50px;
+}
+
+.purple img{
+position: absolute;
+width: 450px;
+height: 350px;
+left: 16rem;
+bottom: 3rem;
+top: 8rem;
+}
+
+.Access{
+  position: relative;
+  bottom: 1rem;
+  max-width: 490px;
+  font-size: 30px;
+  left: 24em;
+  color: white;
+}
+.paragraph{
+  position: relative;
+  display: block;
+  left: 29em;
+  top: 1rem;
+  color: white;
+  text-align: center;
+  font-weight: lighter;
+  font-size: 25px;
+  text-align: justify;
+  max-width: 450px;
+}
+.Explore{
+  width: 225px;
+  height: 44px;
+  border-radius: 5px;
+  color: #FF006E;
+  font-size: 24px;
+  font-weight: 700;
+  text-align: center;
+  line-height: 3rem;
+}
+
+.Explore{
+  background: #FFBE0B;
+  position: relative;
+  top: 3rem;
+  left: 30em;
+
+}
+
+.Acade {
+  font-weight: bold;
+  font-size: 24PX;
+  position: relative;
+  color: white;
+  bottom: 25rem;
+  left: 70rem;
+}
+.Micx {
+  background-color: #FFBE0B;
+  color: #FF006E;
+  padding: 4px;
+  font-size: 24px;
+  border-radius: 5px;
+  letter-spacing: 0;
+}
+
+h4{
+  color: white;
+  position: relative;
+  left: 70rem;
+  bottom:  26rem;
+  font-size: 14px;
+  font-weight: lighter;
+}
+.start{
+  background: #111D4A;
+  position: relative;
+  width: 1394px;
+  right: 1.5rem;
+  bottom: 3rem;
+  padding: 150px;
+  height: 190px;
+}
+.envelope img{
+position: relative;
+width: 400px;
+height: 400px;
+left: 50rem;
+bottom: 8rem;
+}
+
+.start-now{
+  position: relative;
+  bottom: 28rem;
+  color: white;
+  font-size: 32px;
+  font-weight: 700;
+  left: 3rem;
+}
+.If{
+position: relative;
 color: white;
-}
-.join-section h2 {
 font-size: 24px;
-margin-bottom: 30px;
+font-weight: lighter;
+left: 3rem;
+width: 580px;
+bottom: 28rem;
 }
-.join-section h1 {
-font-size: 36px;
-margin: 10px 0;
-font-weight: bold;
+
+.Sign{
+  position: relative;
+  background: #FFBE0B;
+  color: #FF1862;
+  font-size: 24px;
+  text-align: center;
+  width: 121px;
+  height: 44px;
+  bottom: 27rem;
+  left: 3rem;
+  border-radius: 5px;
+  line-height: 2.8rem;
+
 }
-.join-section h3 {
-font-size: 14px;
-font-weight: 400;
-margin-bottom: 10px;
+.bluebox{
+  background: #111D4A;
+  position: relative;
+  width: 1394px;
+  right: 1.5rem;
+  bottom: 3rem;
+  padding: 150px;
+  height: 190px;
 }
-.access-section {
-background-color: #933ff5;
+.bluebox img{
+position: relative;
+width: 400px;
+height: 400px;
+left: 50rem;
+bottom: 8rem;
+}
+
+.start-now{
+  position: relative;
+  bottom: 28rem;
+  color: white;
+  font-size: 32px;
+  font-weight: 700;
+  left: 3rem;
+}
+.If{
+position: relative;
 color: white;
-padding: 60px 20px;
-text-align: left;
-}
-.access-section .box {
-max-width: 1100px;
-margin: 0 auto;
-display: flex;
-flex-wrap: wrap;
-gap: 40px;
-align-items: center;
-}
-.access-section img {
-width: 100%;
-max-width: 300px;
-}
-.access-section h2 {
 font-size: 24px;
-margin-bottom: 15px;
+font-weight: lighter;
+left: 3rem;
+width: 580px;
+bottom: 28rem;
 }
-.paragraph {
-font-size: 16px;
-color: #f3f3f3;
-line-height: 1.5;
-margin-bottom: 20px;
+
+.Sign{
+  position: relative;
+  background: #FFBE0B;
+  color: #FF1862;
+  font-size: 24px;
+  text-align: center;
+  width: 121px;
+  height: 44px;
+  bottom: 27rem;
+  left: 3rem;
+  border-radius: 5px;
+  line-height: 2.8rem;
+
 }
-.access-section .Access {
-font-weight: 600;
+.last{
+  position: relative;
+  top: 5rem;
+  left: 0.5rem;
+  width: 1350px;
 }
-.access-section .paragraph + .button,
-.access-section .button {
-padding: 10px 20px;
-background-color: #ffb700;
-color: #000;
-border: none;
-border-radius: 4px;
-cursor: pointer;
-font-weight: 600;
+
+.Academix{
+  position: relative;
+  top: 31rem;
+  right: 63.5rem;
 }
-@media (max-width: 768px) {
-.info-container,
-.access-section .box {
-flex-direction: column;
-text-align: center;
+
+.Acad{
+  font-weight: bold;
+  font-size: 24PX;
+  position: relative;
+  color: black;
+  bottom: 25rem;
+  left: 70rem;
 }
-.info-image img,
-.access-section img {
-margin-top: 20px;
+.Mix{
+  background-color: black;
+  color: white;
+  padding: 4px;
+  font-size: 24px;
+  border-radius: 5px;
 }
+
+.from{
+  position: relative;
+  top: 5rem;
+  color: black;
+  left: 6.7rem;
+  font-size: 14px;
 }
+.Powered{
+  position: relative;
+  left: 45rem;
+  top: 2.5rem;
+  width: 151px;
+  font-size: 14px;
+  text-align: center;
+  font-weight: 400;
+}
+
+.All{
+  position: relative;
+  left: 40rem;
+  top: 2.5rem;
+  font-size: 14px;
+  font-weight: 400;
+}
+
